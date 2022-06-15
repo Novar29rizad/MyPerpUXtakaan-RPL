@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@200;400&display=swap');
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins', sans-serif ;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0;
+    padding-top: 5rem;
+    padding-left: 16rem; 
+}
+.judulpage{
+    position: fixed;
+    font-size: 1px;
+    color:#fff;
+    top:3.5rem;
+    left:17rem;
+}
+.add{
+    position: fixed;
+    bottom: 0.5rem;
+    left: 17rem;
+    background-color: #b28ecc;
+    color:#fff;
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.add:active{
+    transform: scale(1);
+}
+
+.note{
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+    background-color:rgb(255, 255, 255);
+    color: #000;
+    margin: 20px 20px;
+    height: 250px;
+    width: 250px;
+}
+
+.note .tools{
+    background-color: #b28ecc;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+
+.note .tools button{
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+.note textarea{
+    outline: none;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: none;
+    padding: 10px;
+    height: 200px;
+    width: 100%;
+}
+
+.main {
+    padding: 20px ;
+}
+
+.hidden{
+    display: none;
+}
